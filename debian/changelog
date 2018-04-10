@@ -1,4 +1,4 @@
-on-syslog (2.249.0) UNRELEASED; urgency=low
+on-syslog (2.250.0) UNRELEASED; urgency=low
 
   * Initial release
   * release 1.0.0
@@ -257,5 +257,6 @@ on-syslog (2.249.0) UNRELEASED; urgency=low
   * release 2.247.0
   * release 2.248.0
   * release 2.249.0
+  * release 2.250.0
 
- -- rackhd <rackhd@emc.com>  Tue, 10 Apr 2018 10:54:37 +0000
+ -- rackhd <rackhd@emc.com>  Tue, 10 Apr 2018 14:55:21 +0000
