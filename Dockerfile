@@ -10,7 +10,7 @@ WORKDIR /RackHD/on-syslog
 
 RUN mkdir -p ./node_modules \
   && npm install --ignore-scripts --production \
-  && rm -r ./node_modules/on-core \
+  && rm -r ./node_modules/on-core ./node_modules/di \
   && ln -s /RackHD/on-core ./node_modules/on-core \
   && ln -s /RackHD/on-core/node_modules/di ./node_modules/di
 
